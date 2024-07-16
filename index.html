@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,15 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav class="navber">
-            <h3 class="loge">Nahid <span>Travel</span></h3>
+            <div class="loge">
+                <img src="Images/Group 40071 (2).png" alt="">
+                <h3>Nahid <span>Travel</span></h3>
+            </div>
+
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Packages</a></li>
@@ -20,20 +26,61 @@
             </ul>
         </nav>
 
-        <div class="banner">
-            <h3>Explore Your Travel</h3>
-            <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+        <div class="benner-container">
+            <div class="banner-content">
+                <h3>Explore Your Travel</h3>
+                <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac
+                    quis sapien urna eu phasellus.</p>
+            </div>
+
+            <div class="travel-input">
+                <input type="text" name="destination" placeholder="Where to go">
+                <select name="location" id="location">
+                    <option value="">Select Location</option>
+                    <option value="sylhet">Sylhet</option>
+                    <option value="dhaka">Dhaka</option>
+                </select>
+                <select name="travel_type" id="travel_type">
+                    <option value="">Select Type</option>
+                    <option value="business">Business</option>
+                    <option value="leisure">Leisure</option>
+                    <option value="other">Other</option>
+                </select>
+                <button class="btn"><i class="fa-solid fa-magnifying-glass"></i>Find Now</button>
+            </div>
+
         </div>
-        <form>
-            <input type="text" name="text" placeholder="Where go">
-            <select name="" id=""></select>
-        </form>
+
     </header>
     <main>
-
+        <section class="popular-container">
+            <div class="popular-text">
+                <h3>Our Popular Tours</h3>
+                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst
+                    nec nibh pellentesque.</p>
+                <ul>
+                    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis
+                        erat at .</li>
+                    <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus
+                        suspendisse nullam.</li>
+                    <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+                </ul>
+                <p>Amet consectetur. Vulputate commodo felis molestie risus
+                    ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus
+                    natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
+                    <button class="btn">Read More</button>
+            </div>
+            <div class="popular-image">
+                <img src="Images/Rectangle 4.png" alt="">
+            </div>
+        </section>
     </main>
     <footer>
 
     </footer>
 </body>
+
+<!-- fontawesome CDN -->
+<script src="https://kit.fontawesome.com/b47f49f5f6.js" crossorigin="anonymous"></script>
+
 </html>
